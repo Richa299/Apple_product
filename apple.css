@@ -1,0 +1,131 @@
+body{
+    background-color:lightgreen;
+}
+.main{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    margin-top: 40px;
+}
+.product_details{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px 0px 30px 0px;
+    background-color: aliceblue;
+}
+.product_img{
+    border-radius: 10px;
+width:250px;
+height: 432px;
+background-color:chartreuse;
+/* background: radial-gradient(white 30%, chartreuse 60%); */
+/* box-shadow: 5px 5px 15px white; */
+position: absolute;
+box-shadow: 5px 5px 15px black;
+margin-top: 40px;
+margin-left: -60px;
+flex:0.8;
+}
+.product_img >img{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: -70px;
+    box-shadow: 20px 20px 25px  white;
+}
+.empty_div{
+    width: 200px;
+    height:500px;
+    /* background-color:blue; */
+}
+.para_div{
+    width:300px;
+    height:450px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: darkred;
+    font-size: 20px;
+}
+.product_details{
+    display: flex;
+    flex-direction: row;
+}
+.apples{
+    width:200px;
+    height:30px;
+    display: flex;
+    flex-direction: row;
+}
+.color_img{
+     width:30px;
+    height:30px; 
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.color_img:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.button{
+    width:160px;
+    height:50px;
+    border: none;
+    background-color:salmon;
+    margin-left:30px;
+    font-size: 15px;
+    color: white;
+    border-radius: 9px;
+    box-shadow: 3px 3px 3px gray;
+    font-weight: bold;
+}
+.footer{
+    flex: 0.2;
+    width:250px;
+    height:80px;
+    margin-top: 20px;
+    border-radius: 0px 0px  10px 10px;
+    background-color: white;
+    /* justify-items: center; */
+}
+.footer img{
+    width:30px;
+    height:30px;
+    margin-top: 19px;
+    margin-left: 5px;
+    border:1px solid gray;
+}
+.footer img.icon-1{
+margin-left: 70px;
+}
+.footer img.icon-2{
+    margin-left: 7px;
+}
+.footer img.icon-3{
+    margin-left: 7px;
+}
+.footer img.icon-4{
+    margin-left: 7px;
+}
+.product_img i{
+    margin-top: -80px;
+}
+.icon1{
+    color: white;
+    margin-top: 10px;
+}
+.icon2{
+    margin-left: 200px;
+    color: wheat;
+    /* padding: 10px; */
+}
+.icon1:hover{
+    cursor: pointer;
+}
+.icon2:hover, .button:hover{
+    cursor: pointer;
+}
+
+
