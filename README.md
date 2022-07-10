@@ -1,6 +1,6 @@
 # Apple_product
 
-This is an practice Assignment in which a simple static web page is created which displays a stand-alone product "Apple" of an e-commerce website!
+This is a practice Assignment in which a simple static web page is created which displays a stand-alone product "Apple" of an e-commerce website!
 
 Images are attached for reference & download purpose as well in images folder.
 
